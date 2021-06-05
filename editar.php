@@ -39,19 +39,6 @@ require_once('db/DataBase.php');
 			<div class="col-md-12">
 				<form method="post" action="update.php">
 					<div class="row">
-						<?php if ($_GET['msg'] === 'error'): ?>
-						<div class="col-md-12">
-							<div class="alert alert-danger">
-								Os campos precisa ser preenchido
-							</div>
-						<?php endif; ?>
-						<?php if ($_GET['msg'] === 'true'): ?>
-						<div class="col-md-12">
-							<div class="alert alert-success">
-								Dados cadastrado com sucesso!
-							</div>
-						<?php endif; ?>
-						</div>
 						<div class="col-md-12">
 							<div class="form-group">
 								<label for="mail">E-mail</label>
