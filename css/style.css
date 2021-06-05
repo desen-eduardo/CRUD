@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	font-size: 16px;
+	background: #ccc;
+}
+
+.main{
+	width: 800px;
+	margin: 70px auto;
+}
+
+.main > h1{
+	text-align: center;
+}
