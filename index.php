@@ -1,8 +1,8 @@
 <?php
 require_once('db/DataBase.php');
-
+require_once('config.php');
 	try {
-		$pdo = new PDO('mysql:dbname=crud;host=mysql','root','root');
+		$pdo = new PDO('mysql:dbname='.DB.';host='.HOST,USER,PASS);
 		$db = new Database($pdo);
 	} catch(PDOException $e) {
 		throw new \Exception ('error de conexão'.$e->getMessage());
