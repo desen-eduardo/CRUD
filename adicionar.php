@@ -1,5 +1,5 @@
 <?php
-
+//apena um comentário
 require_once('db/DataBase.php');
 
 try {
